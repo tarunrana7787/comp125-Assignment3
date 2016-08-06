@@ -1,0 +1,67 @@
+<!--authorname Tarun Rana
+Student no-300871205
+course- COMP125 -->
+
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Me</title>
+        <!-- css Section -->
+        <link rel="stylesheet" href="Contents\css\bootstrap.min.css">
+        <link rel="stylesheet" href="Contents\css\bootstrap-theme.min.css">
+        <link rel="stylesheet" href="Contents\css\font-awesome.min.css">
+        <link rel="stylesheet" href="Contents\css\app.css">
+    </head>
+    <body>
+        <div id="mainDiv">
+             <img src="Asset/tar.jpg" class="logo" alt "tr logo">
+            <ul>
+                
+                <li><a href="About me.html">About me</a></li>
+                <li><a class="active">Contact Me</a></li>
+                <li><a href="Project.html">Projects</a></li>
+            </ul>
+            
+            <div class="col-md-offset-2 col-md-8">
+                <h1>Contact Me</h1>       
+                <form id="Form">
+                    <legend>Contact Form</legend>
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Enter Your First Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Enter Your Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactNumber">Contact Number</label>
+                        <input type="tel" class="form-control" id="contactNumber" placeholder="Ente Your Contact Number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea class="form-control" id="message" placeholder="Enter Message here..."></textarea>
+                    </div>
+                    
+                    <div class="text-right">
+                        <a id="cancelButton" href="index.html" class="btn btn-warning">Cancel</a>
+                        <button id="sendButton" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        
+        <img 
+        
+        <!-- JavaScript Section -->
+        <script src="Script\jquery-2.2.4.min.js"></script>
+        <script src="Script\bootstrap.min.js"></script>
+        <script src="Script\app.js"></script>
+        </div>
+    </body>
+</html>

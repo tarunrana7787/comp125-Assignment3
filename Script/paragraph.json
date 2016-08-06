@@ -1,0 +1,40 @@
+{
+"paragraphs":[
+    {
+    "id":"firsttitle",
+    "content": "Tarun Rana"
+    },
+    {
+        "id":"content1",
+        "content":"My name is Tarun Rana I previously studied at B.C.M School in ludhiana.I am a student in the software engineering technician program at centennial college.Previously I studied at B.C.M School in Ludhiana,Punjab,India.I drink a lot of water because they said it is very useful for your body.My preffered brand or mobile devices is Apple."
+    },
+    {
+        "id":"title2",
+        "content":"My projects"
+    },
+    {
+        "id":"Title1",
+        "content":"Project 1: Property sale"
+    },
+    {
+        "id":"Content1" ,
+        "content":"I did this project during my last semmester in COMP 213 This was a term project which in our course and is very useful for this course."
+    },
+    {
+        "id":"Title2",
+        "content":"Project 2: menu form"
+    },
+    { 
+        "id":"Content2",
+        "content":"I did project during my last semester at Centennial College in COMP213. This project is based on form method which describes the different brands of mobiles and their prices."
+    },
+    {
+        "id":"Title3",
+        "content":"Project 3: Banbury tennis club"
+    },
+    {
+        "id":"Content3",
+        "content":"This project is an application form which will allow people to join the tennis club0"
+    }
+    ]
+}
